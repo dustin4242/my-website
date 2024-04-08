@@ -18,7 +18,7 @@ body,
 	width: 100%;
 	height: 100vh;
 	margin: 0;
-	font-family: 'Helvetica';
+	font-family: 'Helvetica', monospace;
 	font-size: 20pt;
 }
 
