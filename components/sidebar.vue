@@ -12,7 +12,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	min-width: 45px;
+	min-width: 100px;
 	width: 8%;
 	height: 100%;
 	gap: 5px;
