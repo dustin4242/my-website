@@ -12,7 +12,6 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	background-color: #19161e;
 
 	color: white;
 	text-shadow: #722f37 1px 1px 1px;

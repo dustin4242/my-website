@@ -20,6 +20,7 @@ body,
 	margin: 0;
 	font-family: 'Helvetica', monospace;
 	font-size: 20pt;
+	background-color: #19161e;
 }
 
 .page {
