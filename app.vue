@@ -1,0 +1,30 @@
+<template>
+	<div class="page">
+		<sidebar />
+		<NuxtPage />
+	</div>
+</template>
+
+<style>
+@font-face {
+	font-family: 'Helvetica';
+	src: url("/NbpInformaFivesix.ttf");
+	font-weight: bolder;
+	font-style: normal;
+}
+
+body,
+#__nuxt {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	font-family: 'Helvetica';
+	font-size: 20pt;
+}
+
+.page {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+</style>
