@@ -19,7 +19,8 @@
 	background-color: #722f37;
 
 	color: white;
-	padding: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 	text-shadow: #19131e 1px 1px 1px;
 }
 
