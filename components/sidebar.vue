@@ -1,7 +1,7 @@
 <template>
 	<div class="sidebar">
 		<div>Hello Welcome To My Website!</div>
-		<div>----------------------------</div>
+		<div>------------</div>
 		<a href="/" class="button">Home</a>
 		<a href="https://www.youtube.com/@DudeBroVideos" class="button">Youtube</a>
 	</div>
