@@ -13,7 +13,7 @@
 	flex-direction: column;
 	align-items: center;
 	min-width: 100px;
-	width: 8%;
+	width: 8vw;
 	height: 100%;
 	gap: 5px;
 	background-color: #722f37;
@@ -21,7 +21,7 @@
 	color: white;
 	padding-left: 5px;
 	padding-right: 5px;
-	text-shadow: #19131e 1px 1px 1px;
+	text-shadow: #19131e 2px 2px 2px;
 }
 
 .button {

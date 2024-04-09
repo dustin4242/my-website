@@ -17,7 +17,7 @@
 
 	color: white;
 	font-size: 2vw;
-	text-shadow: #722f37 1px 1px 1px;
+	text-shadow: #722f37 2px 2px 2px;
 }
 
 .window {
