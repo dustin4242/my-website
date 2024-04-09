@@ -16,6 +16,7 @@
 	background-color: #19161e;
 
 	color: white;
+	font-size: 2vw;
 	text-shadow: #722f37 1px 1px 1px;
 }
 
@@ -25,10 +26,10 @@
 	justify-content: center;
 	align-items: center;
 	padding: 15px;
-	background-color: #211e26;
 	border-image-source: url("/window.png");
-	border-image-slice: 32 32 2;
-	border-image-width: 32px 32px 2px 32px;
+	border-image-outset: 15px;
+	border-image-slice: 37 34 5;
+	border-image-width: 37px 34px 5px 34px;
 	border-image-repeat: round;
 }
 </style>
