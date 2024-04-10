@@ -1,29 +1,18 @@
 <template>
 	<div class="seperate">
 		<div class="sidebar">
-			<div>
-				Hello Welcome To My Website!
-				------------
-			</div>
+			Hello Welcome To My Website!
+			------------
 			<a href="/" class="button">Home</a>
 			<a href="https://www.youtube.com/@DudeBroVideos" class="button">Youtube</a>
 		</div>
-		<div>
-			<a href="https://youtu.be/488YxXFIpz8">
-				<NuxtImg src="/caprininha.gif" />
-			</a>
-		</div>
+		<a href="https://youtu.be/488YxXFIpz8">
+			<NuxtImg src="/caprininha.gif" />
+		</a>
 	</div>
 </template>
 
 <style>
-.sidebar {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 5px;
-}
-
 .seperate {
 	display: flex;
 	flex-direction: column;
@@ -38,6 +27,14 @@
 
 	color: white;
 	text-shadow: #19131e 2px 2px 2px;
+	overflow-x: scroll;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
 }
 
 .button {
