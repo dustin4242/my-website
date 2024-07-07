@@ -1,6 +1,6 @@
 <template>
 	<div class="page">
-		<sidebar />
+		<sidebar class="sidebar-shadow" />
 		<NuxtPage />
 	</div>
 </template>

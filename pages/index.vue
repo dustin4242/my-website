@@ -17,15 +17,15 @@
 	width: 100%;
 	background-color: #19161e;
 	color: white;
-	text-shadow: #722f37 2px 2px 2px;
 }
 
 .window {
 	margin: 10px;
-	padding: 20px;
+	padding: 25px;
 	text-wrap: balance;
 	border-image-source: url("/window.png");
 	border-image-slice: 37 34 5;
 	border-image-width: 37px 34px 5px 34px;
+	text-shadow: #19161e 2px 2px;
 }
 </style>
