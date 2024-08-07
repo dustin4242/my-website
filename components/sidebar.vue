@@ -4,8 +4,8 @@
 			Hello Welcome To My Website!
 			<div class="divider" />
 			<a href="/" class="button">Home</a>
-			<a href="https://www.youtube.com/@DudeBroVideos" class="button">Youtube</a>
 			<a href="/blog" class="button">Blog</a>
+			<a href="https://www.youtube.com/@DudeBroVideos" class="button">Youtube</a>
 		</div>
 		<a href="https://youtu.be/488YxXFIpz8">
 			<NuxtImg src="/caprininha.gif" class="cap" />
@@ -24,6 +24,7 @@
 	height: 100%;
 	padding-left: 5px;
 	padding-right: 5px;
+	padding-top: 5px;
 	background-color: #722f37;
 
 	color: white;
