@@ -5,6 +5,7 @@
 			<div class="divider" />
 			<a href="/" class="button">Home</a>
 			<a href="https://www.youtube.com/@DudeBroVideos" class="button">Youtube</a>
+			<a href="/blog" class="button">Blog</a>
 		</div>
 		<a href="https://youtu.be/488YxXFIpz8">
 			<NuxtImg src="/caprininha.gif" class="cap" />
