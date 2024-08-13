@@ -1,7 +1,7 @@
 <template>
 	<div class="something">
 		<div class="window">
-			<h1>Celina Comic 1</h1>
+			<h1>Celina Comic 1 (Unfinished)</h1>
 			<NuxtImg
 				src="https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Comics/Celina%20Comic%201/CelinaComic1_1-LC6BX4HdzbelwTjllclXQ7e8ShEpaz.jpg"
 				style="background-image: url(https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Comics/Celina%20Comic%201/CelinaComic1_1_lowres-tkfYfBtlTWk9H79hgfCUX4RjZ0RzxL.jpg);"

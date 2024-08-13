@@ -3,7 +3,7 @@
 		<div class="window">
 			<h1>Comics</h1>
 			<div class="comics">
-				<a href="/comics/CelinaComic1" class="link">Celina Comic 1</a>
+				<a href="/comics/CelinaComic1" class="link">Celina Comic 1 (Unfinished)</a>
 				<a href="/comics/FireFight" class="link">Bring A Shield To A Fire Fight</a>
 			</div>
 		</div>
