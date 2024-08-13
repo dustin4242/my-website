@@ -2,20 +2,20 @@
 	<div class="something">
 		<div class="window">
 			<h1>Comics</h1>
-			<a href="/comics/CelinaComic1" class="link">Celina Comic 1</a>
-			<a href="/comics/FireFight" class="link">Bring A Shield To A Fire Fight</a>
+			<div class="comics">
+				<a href="/comics/CelinaComic1" class="link">Celina Comic 1</a>
+				<a href="/comics/FireFight" class="link">Bring A Shield To A Fire Fight</a>
+			</div>
 		</div>
 	</div>
 </template>
 
 <style>
 .comics {
-	height: 80vh;
-	width: 100%;
-	object-fit: contain;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px
 }
 
 .something {
