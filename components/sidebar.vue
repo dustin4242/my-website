@@ -3,12 +3,16 @@
 		<div class="sidebar">
 			Hello Welcome To My Website!
 			<div class="divider" />
-			<a href="/" class="button">Home</a>
-			<a href="/blog" class="button">Blog</a>
-			<a href="https://www.youtube.com/@DudeBroVideos" class="button">Youtube</a>
+			<a href="/">Home</a>
+			<a href="/comics">Comics</a>
+			<a href="/artwork">Artwork</a>
+			<a href="/blog">Blog</a>
+			<a href="https://www.youtube.com/@DudeBroVideos">Youtube</a>
 		</div>
 		<a href="https://youtu.be/488YxXFIpz8">
-			<NuxtImg src="/caprininha.gif" class="cap" />
+			<NuxtImg
+				src="https://jje5kufjadbnucw7.public.blob.vercel-storage.com/General/caprininha-8QoqN4R7G3xWTeUZ0P3O3BZvpxXDrL.gif"
+				class="cap" />
 		</a>
 	</div>
 </template>
@@ -43,10 +47,6 @@
 .divider {
 	border-top: dashed 2px;
 	width: 100%
-}
-
-.button {
-	color: white;
 }
 
 .end {
