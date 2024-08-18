@@ -9,7 +9,8 @@
 const img = useImage();
 let art = [
 	"felicity-N8FPVgrMI05DX6ZxkhAx7EEAbWeYGM.png",
-	"siris-bKAWz8M2rTTwsSw60msYmqfmjTh0Xk.png"
+	"siris-bKAWz8M2rTTwsSw60msYmqfmjTh0Xk.png",
+	"morbought-YARAt6B8hpsL6yLdlXT26mmg6g8zXy.png",
 	"marcy-T4ZPLcxYSSYGGyAxjior04ZLQ8aofx.png",
 	"blondegirl-7rhCyDCR4UNXo3sakwm5QJqxEjnilJ.png",
 	"albumcover-Omb4ARbjwZP6uzPwF1Nfyo0nr2DOGz.png",
