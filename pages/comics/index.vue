@@ -10,7 +10,6 @@
 	</div>
 </template>
 
-<script></script>
 
 <style>
 .comics {
