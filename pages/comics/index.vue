@@ -10,6 +10,8 @@
 	</div>
 </template>
 
+<script></script>
+
 <style>
 .comics {
 	display: flex;
