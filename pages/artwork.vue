@@ -10,17 +10,16 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-const art = ref([
-	"https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/felicity-N8FPVgrMI05DX6ZxkhAx7EEAbWeYGM.png",
-	"https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/marcy-T4ZPLcxYSSYGGyAxjior04ZLQ8aofx.png",
-	"https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/blondegirl-7rhCyDCR4UNXo3sakwm5QJqxEjnilJ.png",
-	"https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/albumcover-Omb4ARbjwZP6uzPwF1Nfyo0nr2DOGz.png",
-	"https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/domino-pEm16vL5zw5NqkeTI70XM7JXkK4v1j.png",
-	"https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/car-egMzxDyHoaywlJiU244QxUhB1dt2Cg.png",
-	"https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/whisper%20stupid-CLXBq1ipPFTZJ0R26IN6UFvEvJzrMR.png",
-	"https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/whisper%20listening-s1ZYOURTiutEZLySibON4k4HDrBm5X.jpg"
-]);
+let art = [
+	"felicity-N8FPVgrMI05DX6ZxkhAx7EEAbWeYGM.png",
+	"marcy-T4ZPLcxYSSYGGyAxjior04ZLQ8aofx.png",
+	"blondegirl-7rhCyDCR4UNXo3sakwm5QJqxEjnilJ.png",
+	"albumcover-Omb4ARbjwZP6uzPwF1Nfyo0nr2DOGz.png",
+	"domino-pEm16vL5zw5NqkeTI70XM7JXkK4v1j.png",
+	"car-egMzxDyHoaywlJiU244QxUhB1dt2Cg.png",
+	"whisper%20stupid-CLXBq1ipPFTZJ0R26IN6UFvEvJzrMR.png",
+	"whisper%20listening-s1ZYOURTiutEZLySibON4k4HDrBm5X.jpg"
+].map(x => { return "https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/" + x });
 </script>
 
 <style>

@@ -3,13 +3,19 @@
 		<div class="window">
 			<h1>Comics</h1>
 			<div class="comics">
-				<a href="/comics/CelinaComic1" class="link">Celina Comic 1 (Unfinished)</a>
-				<a href="/comics/FireFight" class="link">Bring A Shield To A Fire Fight</a>
+				<a v-for="comic in comics" :href="/comics/ + comic[0]" class="link">{{ comic[1] }}</a>
 			</div>
 		</div>
 	</div>
 </template>
 
+<script setup>
+// Link Name, Full Name
+const comics = [
+	["CelinaComic1", "Celina Comic 1 (Unfinished)"],
+	["FireFight", "Bring A Shield To A Fire Fight"]
+];
+</script>
 
 <style>
 .comics {

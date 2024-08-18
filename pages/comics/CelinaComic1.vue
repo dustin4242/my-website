@@ -2,22 +2,41 @@
 	<div class="something">
 		<div class="window">
 			<h1>Celina Comic 1 (Unfinished)</h1>
-			<NuxtImg
-				src="https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Comics/Celina%20Comic%201/CelinaComic1_1-LC6BX4HdzbelwTjllclXQ7e8ShEpaz.jpg"
-				style="background-image: url(https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Comics/Celina%20Comic%201/CelinaComic1_1_lowres-tkfYfBtlTWk9H79hgfCUX4RjZ0RzxL.jpg);"
-				class="page-comic" />
+			<div class="comics">
+				<NuxtImg v-for="(comicpage, index) in comic" :src="comicpage" :style="lowres[index]"
+					class="page-comic" />
+			</div>
 		</div>
 	</div>
 </template>
 
+<script setup>
+const comic = [
+	"CelinaComic1_1-ZySaYiGXjiliiKQabbS21fh1j1UFv1.jpg",
+	"CelinaComic1_2-Zs5nWXLMqdW82kkJ1CWzrZFjFI0Zr9.jpg"
+].map(x => { return "https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Comics/Celina%20Comic%201/" + x });
+
+const lowres = [
+	"CelinaComic1_1_lowres-gtTFcbyTSyo2Ybw1Tlx8gg0fana83q.jpg",
+	"CelinaComic1_2_lowres-5AnPXcdqEUl50cptmmSmF0oRI7pavh.jpg"
+].map(x => { return "background-image: url(https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Comics/Celina%20Comic%201/" + x + ")" });
+</script>
+
 <style>
-.page-comic {
-	max-height: 80vh;
+.comics {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	column-gap: 5px;
+	row-gap: 5px;
+	height: 100%;
 	width: 100%;
+}
+
+.page-comic {
+	width: 100%;
+	max-height: 80vh;
 	object-fit: contain;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .something {
