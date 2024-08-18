@@ -1,11 +1,7 @@
 <template>
-	<div class="something">
-		<div class="window">
-			<h1>Artwork</h1>
-			<div class="artworks">
-				<NuxtImg v-for="artwork in art" :src="artwork" class="art" loading="lazy" />
-			</div>
-		</div>
+	<h1>Artwork</h1>
+	<div class="artworks">
+		<NuxtImg v-for="artwork in art" :src="artwork" class="art" loading="lazy" />
 	</div>
 </template>
 
@@ -39,24 +35,5 @@ let art = [
 	aspect-ratio: 1 / 1;
 	object-fit: contain;
 	width: 100%;
-}
-
-.something {
-	overflow-x: scroll;
-	width: 100%;
-	height: 100%;
-	color: white;
-}
-
-.window {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 10px;
-	padding: 25px;
-	border-image-source: url("/window.png");
-	border-image-slice: 37 34 5;
-	border-image-width: 37px 34px 5px 34px;
 }
 </style>

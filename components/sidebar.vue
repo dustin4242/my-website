@@ -1,6 +1,7 @@
 <template>
 	<div class="seperate">
 		<div class="sidebar">
+			<div class="top" />
 			Hello Welcome To My Website!
 			<div class="divider" />
 			<a href="/">Home</a>
@@ -28,7 +29,6 @@
 	height: 100%;
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-top: 5px;
 	background-color: #722f37;
 
 	color: white;
@@ -49,12 +49,12 @@
 	width: 100%
 }
 
-.end {
-	width: 100%
-}
-
 .cap {
 	border: solid #19131e 2px;
 	margin-bottom: 5px
+}
+
+.top {
+	height: 2px;
 }
 </style>

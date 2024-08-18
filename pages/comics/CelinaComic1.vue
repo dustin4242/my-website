@@ -1,11 +1,7 @@
 <template>
-	<div class="something">
-		<div class="window">
-			<h1>Celina Comic 1 (Unfinished)</h1>
-			<div class="comics">
-				<NuxtImg v-for="(comicpage, index) in comic" :src="comicpage" class=" page-comic" loading="lazy" />
-			</div>
-		</div>
+	<h1>Celina Comic 1 (Unfinished)</h1>
+	<div class="comics">
+		<NuxtImg v-for="(comicpage, index) in comic" :src="comicpage" class=" page-comic" loading="lazy" />
 	</div>
 </template>
 
@@ -31,24 +27,5 @@ const comic = [
 	width: 100%;
 	max-height: 80vh;
 	object-fit: contain;
-}
-
-.something {
-	overflow-x: scroll;
-	width: 100%;
-	height: 100%;
-	color: white;
-}
-
-.window {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 10px;
-	padding: 25px;
-	border-image-source: url("/window.png");
-	border-image-slice: 37 34 5;
-	border-image-width: 37px 34px 5px 34px;
 }
 </style>
