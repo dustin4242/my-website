@@ -3,7 +3,7 @@
 		<div class="window">
 			<h1>Bring A Shield To A Fire Fight</h1>
 			<div class="comics">
-				<NuxtImg v-for="comicpage in comic" :src="comicpage" class="page-comic" />
+				<NuxtImg v-for="comicpage in comic" :src="comicpage" class="page-comic" loading="lazy" />
 			</div>
 		</div>
 	</div>
@@ -31,8 +31,6 @@ const comic = [
 
 .page-comic {
 	width: 100%;
-	max-height: 80vh;
-	object-fit: contain;
 }
 
 .something {

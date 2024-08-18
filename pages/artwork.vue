@@ -3,13 +3,14 @@
 		<div class="window">
 			<h1>Artwork</h1>
 			<div class="artworks">
-				<NuxtImg v-for="artwork in art" :src="artwork" class="art" />
+				<NuxtImg v-for="artwork in art" :src="artwork" class="art" loading="lazy" />
 			</div>
 		</div>
 	</div>
 </template>
 
 <script setup>
+const img = useImage();
 let art = [
 	"felicity-N8FPVgrMI05DX6ZxkhAx7EEAbWeYGM.png",
 	"marcy-T4ZPLcxYSSYGGyAxjior04ZLQ8aofx.png",

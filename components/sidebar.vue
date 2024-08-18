@@ -12,7 +12,7 @@
 		<a href="https://youtu.be/488YxXFIpz8">
 			<NuxtImg
 				src="https://jje5kufjadbnucw7.public.blob.vercel-storage.com/General/caprininha-8QoqN4R7G3xWTeUZ0P3O3BZvpxXDrL.gif"
-				class="cap" />
+				class="cap" loading="lazy" />
 		</a>
 	</div>
 </template>

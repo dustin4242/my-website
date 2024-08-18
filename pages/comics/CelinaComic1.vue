@@ -3,8 +3,7 @@
 		<div class="window">
 			<h1>Celina Comic 1 (Unfinished)</h1>
 			<div class="comics">
-				<NuxtImg v-for="(comicpage, index) in comic" :src="comicpage" :style="lowres[index]"
-					class="page-comic" />
+				<NuxtImg v-for="(comicpage, index) in comic" :src="comicpage" class=" page-comic" loading="lazy" />
 			</div>
 		</div>
 	</div>
@@ -15,11 +14,6 @@ const comic = [
 	"CelinaComic1_1-ZySaYiGXjiliiKQabbS21fh1j1UFv1.jpg",
 	"CelinaComic1_2-Zs5nWXLMqdW82kkJ1CWzrZFjFI0Zr9.jpg"
 ].map(x => { return "https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Comics/Celina%20Comic%201/" + x });
-
-const lowres = [
-	"CelinaComic1_1_lowres-gtTFcbyTSyo2Ybw1Tlx8gg0fana83q.jpg",
-	"CelinaComic1_2_lowres-5AnPXcdqEUl50cptmmSmF0oRI7pavh.jpg"
-].map(x => { return "background-image: url(https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Comics/Celina%20Comic%201/" + x + ")" });
 </script>
 
 <style>
