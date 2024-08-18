@@ -2,9 +2,9 @@
 	<title>Dustin's Website</title>
 	<meta content="Dustin's Website" property="og:title" />
 	<meta content="A Place Where Dustin Does Things" property="og:description" />
-	<meta content="https://chatplex.dev" property="og:url" />
+	<meta content="https://chatplex.dev/#a" property="og:url" />
 	<meta
-		content="https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Artwork/felicity-N8FPVgrMI05DX6ZxkhAx7EEAbWeYGM.png"
+		content="https://jje5kufjadbnucw7.public.blob.vercel-storage.com/General/caprininha-8QoqN4R7G3xWTeUZ0P3O3BZvpxXDrL.gif"
 		property="og:image" />
 	<meta content="#722f37" data-react-helmet="true" name="theme-color" />
 
