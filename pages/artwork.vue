@@ -8,6 +8,7 @@
 <script setup>
 const img = useImage();
 let art = [
+	"CelinaOHSHIT-PSAPPl8bQdr1ADTWgTxflkYRpYC8N7.png",
 	"felicity-N8FPVgrMI05DX6ZxkhAx7EEAbWeYGM.png",
 	"siris-bKAWz8M2rTTwsSw60msYmqfmjTh0Xk.png",
 	"morbought-YARAt6B8hpsL6yLdlXT26mmg6g8zXy.png",
