@@ -42,5 +42,6 @@ let art = [
 	aspect-ratio: 1 / 1;
 	object-fit: contain;
 	width: 100%;
+	background-color: #15121d;
 }
 </style>
