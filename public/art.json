@@ -24,27 +24,5 @@
 		"car-egMzxDyHoaywlJiU244QxUhB1dt2Cg.png",
 		"whisper%20stupid-CLXBq1ipPFTZJ0R26IN6UFvEvJzrMR.png",
 		"whisper%20listening-s1ZYOURTiutEZLySibON4k4HDrBm5X.jpg"
-	],
-	"comics": [
-		{
-			"name": "Celina Comic 1 (Unfinished)",
-			"routename": "CelinaComic1",
-			"vercelname": "Celina Comic 1",
-			"pages": [
-				"CelinaComic1_1-ZySaYiGXjiliiKQabbS21fh1j1UFv1.jpg",
-				"CelinaComic1_2-Zs5nWXLMqdW82kkJ1CWzrZFjFI0Zr9.jpg"
-			]
-		},
-		{
-			"name": "Bring A Shield To A Fire Fight",
-			"routename": "FireFight",
-			"vercelname": "Bring A Shield To A Fire Fight",
-			"pages": [
-				"placcid-lNAndXPpmDoFsY2xTBxxpEQEeY6Qpk.png",
-				"placcid2-4ybCct9dfvKv12UR1LekDaMoDJn3ap.png",
-				"placcid3-keRIYY6QJslFYzCQ01Mw4IcFRm4KDB.png",
-				"placcid4-omNAQGm1ZnzXyB8EZFOsEVDeMrQlJq.png"
-			]
-		}
 	]
 }

@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import comic_json from "../../public/art.json"
+import comic_json from "../../public/comics.json"
 const route = useRoute();
 const comic = comic_json.comics.find(x => x.routename == route.params.id)
 const comic_pages = comic.pages.map(x => { return "https://jje5kufjadbnucw7.public.blob.vercel-storage.com/Comics/" + comic.vercelname + "/" + x });

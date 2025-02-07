@@ -7,7 +7,7 @@
 
 <script setup>
 // Link Name, Full Name
-import comics_json from "../../public/art.json"
+import comics_json from "../../public/comics.json"
 const comics = comics_json.comics;
 </script>
 
